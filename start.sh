@@ -44,5 +44,5 @@ EOF
     echo "-> Server will start in 3 seconds..."
     sleep 3
     
-    exec java -Xmx16G -Xms8G -jar server.jar nogui
+    exec java -Xmx8G -Xms6G -jar server.jar nogui
 }
