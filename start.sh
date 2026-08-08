@@ -27,7 +27,7 @@
     
     cat << 'EOF' > playit.sh
 #!/bin/bash
-echo "=> menyalakan agen playit.gg..."
+echo "=> Starting Playit.gg..."
 ./playit-standalone
 EOF
     chmod +x playit.sh
@@ -36,7 +36,7 @@ EOF
 #!/bin/bash
 source ~/.bashrc
 echo "=> Starting Minecraft Server..."
-java -Xmx16G -Xms8G -jar server.jar nogui
+java -Xmx8G -Xms6G -jar server.jar nogui
 EOF
     chmod +x start.sh
 

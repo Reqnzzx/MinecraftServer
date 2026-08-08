@@ -11,9 +11,6 @@ This repository contains script templates for creating and running a free Minecr
 ## File & Folder Structure
 To facilitate editing, the script is organized into several files within the following folders:
 - `start.sh`: The main execution script. It runs the entire installation process, bypasses the EULA, and starts the server.
-- `setup/`: A dedicated folder containing installation scripts.
-  - `install_java.sh`: Downloads and sets Java 21 as the default environment.
-  - `install_playit.sh`: Downloads the Playit.gg standalone file (v0.15.26).
 
 ## Usage (Quick Start)
 
