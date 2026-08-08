@@ -1,5 +1,13 @@
 world/
+world_nether/
+world_the_end/
+versions/
+libraries/
+config/
+cache/
 logs/
 crash-reports/
 usercache.json
 playit-standalone
+banned-ips.json
+banned-player.json
