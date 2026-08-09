@@ -2,7 +2,7 @@
 
 This repository contains a fully automated script template for creating and running a free Minecraft server using **GitHub Codespaces**, with specifications of up to **16GB of RAM and 4 cores**.
 
-## 🚀 Key Features
+## Key Features
 - **High Performance:** Leverages GitHub Codespaces capabilities (up to 16GB RAM).
 - **100% Automated Setup:** Uses a single, self-transforming bash script (`start.sh`). Just execute it and relax. It automatically downloads the server core, sets up Java 21, bypasses the EULA, and launches the game.
 - **Cross-Play & Cross-Version (Zero Config!):** The `plugins` folder is pre-loaded with `GeyserMC`, `Floodgate` and `ViaVersion`. 100% ready to play with zero manual server configuration required!
