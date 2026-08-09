@@ -43,7 +43,7 @@ Because the setup script is smart, it has already transformed into a simple laun
 
 2. Open a second terminal and start the network tunnel:
    ```bash
-   ./nyalain_playit.sh
+   ./playit.sh
    ```
 
 ## Limitations & Drawbacks
