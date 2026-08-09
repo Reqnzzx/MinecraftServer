@@ -36,7 +36,7 @@ EOF
 #!/bin/bash
 source ~/.bashrc
 echo "=> Starting Minecraft Server..."
-java -Xmx8G -Xms6G -jar server.jar nogui
+java -Xmx8G -Xms7G -jar server.jar nogui
 EOF
     chmod +x start.sh
 
@@ -44,5 +44,5 @@ EOF
     echo "-> Server will start in 3 seconds..."
     sleep 3
     
-    exec java -Xmx8G -Xms6G -jar server.jar nogui
+    exec java -Xmx8G -Xms7G -jar server.jar nogui
 }
